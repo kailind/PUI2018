@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Bun Bun Bake Shop</title>
+ 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/main_bun.js"></script>
+</head>
+	
+
+    <body class="mainpage" onload="cartNumber()">
+		<div id="topbar">
+		<h1 class="headline"> BUN BUN BAKE SHOP </h1>
+			<nav class="headline" id="navigation">
+                <a href="index.html">About</a> 
+                <a class="selectedNav" href="productpage.html">Shop</a>
+                <a id="cartText" href="cart.html" onclick="createCart()"> Cart </a>
+                <a> Contact </a>
+
+            </nav>
+        </div>
+        <div class="maindetail">
+            <div id='gobackmenu'>
+                <a href="product_detail.html" class='goback'>Original</a>
+                <a href="blueberry.html" class="goback" >Blueberry</a>
+                <a href="walnutcinnamon.html" class="goback">Walnut</a>
+                <a href="glutenfree.html" class="goback">Original (Gluten Free)</a>
+                <a href="pumpkin.html" class="goback" id="selected">Pumpkin Spice</a>
+                <a href="pecam.html" class="goback">Caramel Pecam</a>
+            </div>
+            <div class="vl"></div>
+            <div id="description" >
+                <img src='img/pic5.png' class="food" id="food" alt="original cinnamon roll" onclick="goToDetail()">
+                <div id="description_2" class="food">
+                    <p class="producttitle"> Walnut Cinnamon Flavor Cinammon Roll</p>
+                    <p class='price' id="finalPrice">$4.5/Each</p>
+                    <p id="introparagraph"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam imperdiet id mauris vitae venenatis. Quisque blandit sed elit at aliquet. Aliquam porttitor arcu vel justo placerat euismod.</p>
+                    <div class="choose">
+                        <h3>Glazing</h3>
+
+                        <button class="glazingButton" id="None" onclick="selectGlazing('None','pumpkin')">None</button>
+                        <button class="glazingButton" id="Sugar-Milk" onclick="selectGlazing('Sugar-Milk','pumpkin')">Sugar-Milk</button>
+                        <button class="glazingButton" id='Vanilla-Milk' onclick="selectGlazing('Vanilla-Milk','pumpkin')">Vanilla-Milk</button>
+                        <button class="glazingButton" id= 'Double-Chocolate' onclick="selectGlazing('Double-Chocolate','pumpkin')">Double-Chocolate</button>
+                    </div>
+                    <div class="choose">
+                        <h3>Amount</h3>
+
+                        <button class="amountButton" id='1' onclick="selectProperty(1,'amount',4.5)">1</button>
+                        <button class="amountButton" id='3' onclick="selectProperty(3,'amount',4.5)">3</button>
+                        <button class="amountButton" id='6' onclick="selectProperty(6,'amount',4.5)">6</button>
+                        <button class="amountButton" id='12' onclick="selectProperty(12,'amount',4.5)">12</button>
+                    </div>
+            	
+
+                </div>
+
+                
+
+            	
+            	<button class="shopnow"> Buy Now </button>
+                <button class="shopnow" onclick="selectProperty('Pumpkin Spice Cinnamon Roll','flavor')">Add to Cart</button>
+            </div>
+
+        </div>
+
+
+		
+	</body>
+	
+
+</html>
