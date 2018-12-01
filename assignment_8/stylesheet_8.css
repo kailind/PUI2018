@@ -1,0 +1,1216 @@
+@media screen and (max-width: 1200px){
+	#navigationRight{
+		display:none;
+	}
+
+}
+
+@media screen and (min-width: 1201px){
+	#navigationRight{
+		display:block;
+	}
+
+	
+}
+
+
+@media screen and (min-width:1001px){
+	
+  #mainbody_1_1{
+	padding-left:20%;
+	padding-right:20%;
+  }
+
+	#dividedHouse{
+		font-size:64px;
+  }
+
+  #mainbody_4_1{
+  	padding-left:20%;
+	padding-right:20%;
+  }
+
+  #mainbody_4_2{
+  	padding-left:20%;
+	padding-right:20%;
+  }
+
+.mainbody_2_1sub1{
+	padding-left:30%;
+	padding-right:30%;
+
+	
+}
+
+.mainbody_2_1sub2{
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.container-fluid{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#dividedHouse{
+		font-size:20px;
+		line-height: 20px;
+	}
+
+	
+
+  	
+
+
+
+  	#mainbody_1_1{
+	padding-left:15%;
+	padding-right:15%;
+	}
+
+	 #mainbody_4_1{
+  	padding-left:10%;
+	padding-right:10%;
+  }
+
+  #mainbody_4_2{
+  	padding-left:15%;
+	padding-right:15%;
+  }
+
+  .mainbody_2_1sub1{
+	padding-left:10%;
+	padding-right:10%;
+
+	
+}
+
+.mainbody_2_1sub2{
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.container-fluid{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+	
+
+    
+ }
+
+
+
+	
+@media screen and (min-width: 1001px) {
+
+  
+   .textSpecial{
+   	 line-height:64px;
+   	 font-size:60px;
+   }
+
+    #summary{
+   	padding-left:30%;
+	padding-right:30%;
+   }
+
+   .obeyLaw{
+	font-size:30px;
+	line-height:34px;
+}
+	.obeyLaw_2{
+	font-size:30px;
+	line-height:34px;
+}
+
+	#FISTS{
+  	padding-top:5%;
+
+    font-size:120px;
+    line-height:40px;
+  }
+  #AND {
+    padding-left:40%;
+    font-size:80px;
+    line-height:40px;
+  }
+
+  #GUNS{
+  	padding-left:65%;
+    font-size:120px;
+    line-height:40px;
+
+
+
+  }
+
+
+	 #NEA{
+	  	padding-top:5%;
+
+	    font-size:140px;
+	    line-height:40px;
+	  }
+	  #VS {
+	    padding-left:40%;
+	    font-size:80px;
+	    line-height:40px;
+	  }
+
+	  #NRA{
+	  	padding-left:65%;
+	    font-size:140px;
+	    line-height:40px;
+
+
+
+  }
+
+
+#POLICE{
+  	color:#003757;
+  	padding-top:5%;
+  	margin-left:5%;
+
+    font-size:100px;
+    line-height:100px;
+  }
+  #AND1 {
+    padding-left:0%;
+    color:#4E2712;
+    font-size:80px;
+    line-height:40px;
+  }
+
+  #SHOOTER{
+  	color:#FF5A39;
+  	margin-left:5%;
+    font-size:100px;
+    line-height:100px;
+
+
+
+  }
+#POTATO{
+  	color:#003757;
+  	padding-top:5%;
+  	margin-left:10%;
+
+    font-size:120px;
+    line-height:120px;
+  }
+
+  #POTAHTO{
+  	color:#FF5A39;
+  	margin-left:10%;
+    font-size:120px;
+    line-height:120px;
+
+
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+	#FISTS{
+	  	padding-top:20%;
+	    font-size:60px;
+	    line-height:60px;
+  	}
+ 	 #AND {
+	    font-size:50px;
+	    line-height:50px;
+	    /*text-align:center;*/
+  	}
+
+  	#GUNS{
+	  	
+	    font-size:60px;
+	    line-height:60px;
+  	}
+
+	#POLICE{
+  		color:#003757;
+	  	padding-top:20%;
+	    font-size:40px;
+	    line-height:40px;
+  	}
+ 	 #AND1{
+	    font-size:30px;
+	     color:#4E2712;
+	    line-height:30px;
+	    /*text-align:center;*/
+  	}
+
+  	#SHOOTER{
+	  	color:#FF5A39;
+	    font-size:40px;
+	    line-height:40px;
+  	}
+ #POTATO{
+  	color:#003757;
+  	padding-top:20%;
+  	margin-left:10%;
+
+    font-size:40px;
+    line-height:40px;
+  }
+
+  #POTAHTO{
+  	color:#FF5A39;
+  	margin-left:10%;
+    font-size:40px;
+    line-height:40px;
+
+
+
+  }
+
+   #NEA{
+  	padding-top:20%;
+
+    font-size:50px;
+    line-height:50px;
+  }
+  #VS {
+    padding-left:40%;
+    font-size:30px;
+    line-height:30px;
+  }
+
+  #NRA{
+  	padding-left:65%;
+    font-size:50px;
+    line-height:50px;
+
+
+
+  }
+ 
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 479px){
+
+	.textSpecial{
+   	 line-height:44px;
+   	 font-size:40px;
+   }
+
+   #summary{
+   	padding-left:10%;
+	padding-right:10%;
+   }
+
+   .obeyLaw{
+	font-size:30px;
+}
+	.obeyLaw_1{
+	font-size:30px;
+}
+
+	#FISTS{
+	  	padding-top:15%;
+	    font-size:80px;
+	    line-height:80px;
+  	}
+ 	 #AND {
+	    font-size:70px;
+	    line-height:58px;
+	    /*text-align:center;*/
+  	}
+
+  	#GUNS{
+	  	
+	    font-size:80px;
+	    line-height:80px;
+  	}
+
+
+  	#POTATO{
+  	color:#003757;
+  	padding-top:15%;
+  	margin-left:10%;
+
+    font-size:80px;
+    line-height:80px;
+  }
+
+  #POTAHTO{
+  	color:#FF5A39;
+  	margin-left:10%;
+    font-size:80px;
+    line-height:80px;
+
+
+
+  }
+
+  #POLICE{
+  		color:#003757;
+	  	padding-top:15%;
+	    font-size:60px;
+	    line-height:60px;
+  	}
+ 	 #AND1{
+	    font-size:50px;
+	     color:#4E2712;
+	    line-height:50px;
+	    /*text-align:center;*/
+  	}
+
+  	#SHOOTER{
+	  	color:#FF5A39;
+	    font-size:60px;
+	    line-height:60px;
+  	}
+
+
+   	#NEA{
+	  	padding-top:15%;
+	    font-size:70px;
+	    line-height:70px;
+  	}
+
+
+ 	 #VS {
+	    font-size:50px;
+	    line-height:58px;
+	    /*text-align:center;*/
+  	}
+
+  	#NRA{
+	  	
+	    font-size:70px;
+	    line-height:70px;
+  	}
+
+
+
+
+}
+
+
+body{
+	
+	margin-left:2%;
+	margin-right:2%;
+	color:white;
+
+	
+}
+
+a:hover{
+	color:white;
+	background-color:none;
+}
+
+
+#mainBody{
+	background-image: url("image/background_main.jpg");
+
+}
+
+#aboutDiv{
+	padding-top:20%;
+	padding-left:10%;
+	padding-right:10%;
+	text-align:center;
+}
+
+#aboutBody{
+	background-color:#000000;
+}
+
+#section1{
+	background-color:#F34A25;
+ /* 	height: 100%;*/
+/*  	background-position: center;
+  	background-repeat: no-repeat;*/
+  	
+  	position: relative;
+  	padding-bottom:10%;
+  	
+}
+
+#section2{
+	background-image: url("image/nea_nra_1.jpg");
+ /* 	height: 100%;*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	
+}
+
+
+
+#fistAndGunsBody{
+	margin:0%;
+	width:100%;
+
+}
+
+
+
+
+
+#mainDiv{
+	
+	padding-left:3%;
+	margin-top:5%;
+}
+
+
+
+
+h1{
+	color:white;
+	font-family:"tablet gothic";
+	font-weight: bold;
+	font-size:6em;
+	
+}
+
+#subtitle{
+	font-family:"tablet gothic";
+	font-weight: bold;
+	font-size:1em;
+	color:white;
+}
+
+#mainbody{
+	font-family:"tablet gothic";
+	color:white;
+	font-weight:normal;
+	margin-top:2%;
+
+}
+
+.btn-primary{
+	background-color:none;
+	border:none;
+}
+
+.read_stories{
+	margin-top:10%;
+	font-family:"georgia";
+	font-size:14px;
+	color:white;
+	font-style: italic;
+
+}
+
+#navigationBar{
+	position:fixed;
+	top:0;
+}
+
+.navbar-fixed-top{
+	background:none;
+	border:none;
+	font-family:"tablet gothic";
+	position:relative;
+	padding:20px;
+	color:white;
+	position:fixed;
+
+
+}
+
+.navbar-nav{
+	float:right;
+	background:none;
+	/*margin-right:5%;*/
+
+}
+
+.navbar-fixed-top .navbar-nav>li>a{
+	padding-right:12%;
+	color:white;
+	
+	display:inline-block;
+	
+
+	/*display:inline-block;*/
+
+}
+
+.navbar-fixed-top .navbar-nav>li>a:hover{
+	color:white;
+
+	background-color:transparent;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:white;
+}
+
+#navigationRight .navbar-nav>li>a.rightSub_1{
+	opacity:0;
+}
+
+#navigationRight .navbar-nav>li>a.rightSub_1:hover{
+	opacity:100;
+	color:white;
+
+}
+
+#navigationRight{
+	transform: rotate(90deg);
+	/*display:inline-block;*/
+	position:fixed;
+	margin-right:5%;
+	font-size:10px;
+	padding-bottom: 98%;
+	padding-left:0;
+    padding-right: 50%;
+
+    
+}
+
+/*#rightBar_1{
+	
+
+}
+
+#rightBar_2{
+	transform: rotate(90deg);
+
+}
+
+#rightBar_3{
+	transform: rotate(90deg);
+
+}
+
+
+#rightBar_4{
+	transform: rotate(90deg);
+
+}*/
+
+#navigationRight .navbar-nav>li>a{
+
+	width:130px;
+	margin:0;
+	padding:0;
+
+
+}
+
+hr{
+	width:50px;
+	margin-left:0;
+	margin-right:0;
+	position:relative;
+	margin-top:10px;
+
+
+}
+
+
+
+.navbar-default{
+	background:none;
+	border:none;
+	font-family:"tablet gothic";
+	position:relative;
+	padding:20px;
+	
+
+}
+
+.navbar-fixed-top .navbar-brand{
+	color:white;
+	letter-spacing:0.04em;
+	padding-left:0;
+	padding-right:0;
+
+
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#FF5A39;
+	letter-spacing:0.04em;
+	font-weight: thin;
+
+
+
+}
+
+.navbar-default .navbar-nav>li{
+	padding-right:12%;
+	
+
+	/*display:inline-block;*/
+
+}
+
+.navbar-default .navbar-nav{
+	float:none;
+}
+
+
+
+
+.homeNav{
+	line-height:8vw;
+
+	padding-right:2%;
+	font-weight: 900;
+
+
+
+}
+
+#mainDiv{
+	margin-top:10%;
+}
+
+#fistsGunTitle{
+	padding-top:10%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+#policeShooterTitle{
+	
+	padding-left:10%;
+	padding-right:10%;
+}
+
+
+#potato_potahto_title{
+	padding-top:5%;
+	
+	
+}
+
+
+
+
+#FISTS{
+	color:#003757;
+	
+	
+	display:block;
+}
+
+#AND{
+	color:#CACCCC;
+	/*text-align:center;*/
+	
+	display:block;
+}
+
+#GUNS{
+	color:#4E2712;
+	
+
+	display:block;
+}
+
+#NEA{
+	color:#003757;
+	
+	
+	display:block;
+}
+
+#VS{
+	color:#CACCCC;
+	/*text-align:center;*/
+	
+	display:block;
+}
+
+#NRA{
+	color:#FF5A39;
+	
+
+	display:block;
+}
+
+#subTitles{
+	display:block;
+	font-weight: 200;
+
+}
+
+
+#fandg1{
+	background-color:orange;
+}
+
+#fists_and_guns_intro{
+	margin-top:6%;
+	margin-left:10%;
+	margin-right:10%;
+	
+
+}
+
+#nea_nra_intro{
+	margin-top:6%;
+	margin-left:10%;
+	margin-right:10%;
+	
+
+}
+
+#potato_potahto_intro{
+	margin-top:6%;
+	margin-left:10%;
+	margin-right:10%;
+	
+
+}
+
+.settingTitle{
+	color:#003757;
+	font-family:"tablet gothic";
+	font-weight: bold;
+	font-size:16px;
+	
+}
+
+.mainPlayerTitle{
+	color:#003757;
+	font-family:"tablet gothic";
+	font-weight: bold;
+	font-size:14px;
+	text-decoration: underline;
+
+}
+
+.roundTitle{
+	color:#C9FFFB;
+	font-family:"tablet gothic";
+	font-weight: bold;
+	font-size:16px;
+
+
+}
+
+.nameTitle{
+	font-family:"georgia";
+	font-weight: bold;
+	color:#003757;
+	margin-bottom:0;
+	margin-top:6px;
+
+}
+
+#peopleIntro{
+	font-family:"georgia";
+	color:#003757;
+
+
+}
+
+.nameBody{
+	font-family:"georgia";
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom:0px;
+
+}
+
+/*#fgBody{
+	padding-left:5%;
+	margin-right:5%;
+}*/
+
+.textBody{
+	font-family:"georgia";
+	font-weight: normal;
+	padding-top:1px;
+	font-size:14px;
+
+}
+
+#mainbody_1_1{
+	background-image: url("image/fist_and_gun_2.jpg");
+ /* 	height: 100%;*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:5%;
+	
+}
+
+#mainbody_1_2{
+	padding-left:10%;
+	padding-right:10%;
+	background-image: url("image/fist_and_gun_3.jpg");
+
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:5%;
+	
+}
+
+#mainbody_1_3{
+	padding-left:10%;
+	padding-right:10%;
+	background-image: url("image/fist_and_gun_4.jpg");
+
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:5%;
+	
+}
+
+#mainbody_1_4{
+	
+	background-image: url("image/fist_and_gun_5.jpg");
+
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:5%;
+  	padding-top:5%;
+	
+}
+
+#section3{
+	/*padding-left:10%;
+	padding-right:10%;*/
+	background-image: url("image/police_and_shooter_1.jpg");
+
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:5%;
+	
+}
+
+#section4{
+	background-color:#4A90E2;
+	position: relative;
+  	padding-bottom:10%;
+  /*	padding-top:5%;*/
+}
+
+#mainbody_2_1{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("image/police_and_shooter_2.jpg");
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:5%;
+  	padding-top:5%;
+	
+}
+
+
+
+
+.mainbody_2_1sub2{
+	
+	padding-top:5%;
+	padding-bottom:5%;
+	
+}
+
+#mainbody_2_2{
+	padding-left:10%;
+	padding-right:10%;
+	background-image: url("image/police_and_shooter_3.jpg");
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:5%;
+  	padding-top:5%;
+	
+}
+
+#mainbody_2_4{
+	
+	
+	background-color:#0E3854;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:5%;
+  	padding-top:5%;
+	
+}
+
+#mainbody_3_1{
+	padding-left:10%;
+	padding-right:10%;
+	background-image: url("image/potato_potahto_1.jpg");
+ /* 	height: 100%;*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:10%;
+	
+}
+
+#mainbody_3_2{
+	padding-left:20%;
+	padding-right:20%;
+	background-color: #4F2811;
+	background-size: cover;
+
+ /* 	height: 100%;*/
+  
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:10%;
+	
+}
+
+#mainbody_3_3{
+	padding-left:20%;
+	padding-right:20%;
+	background-image: url("image/potato_potahto_2.jpg");
+ /* 	height: 100%;*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:10%;
+	
+}
+#mainbody_3_4{
+	padding-left:10%;
+	padding-right:10%;
+	background-image: url("image/potato_potahto_3.jpg");
+ /* 	height: 100%;*/
+  	height: auto;
+  	background-size: cover;
+  
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:10%;
+
+	
+}
+
+#mainbody_3_5{
+	padding-left:20%;
+	padding-right:20%;
+	background-image: url("image/potato_potahto_4.jpg");
+ /* 	height: 100%;*/
+  	height: auto;
+  	background-size: cover;
+  
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:10%;
+
+	
+}
+
+
+
+
+
+
+#mainbody_4_1{
+	
+	background-image: url("image/nea_nra_2.jpg");
+ /* 	height: 100%;*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:10%;
+  	padding-top:10%;
+	
+}
+
+
+#mainbody_4_2{
+	
+	background-image: url("image/nea_nra_3.jpg");
+ /* 	height: 100%;*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:15%;
+  	padding-top:10%;
+	
+}
+
+#mainbody_4_3{
+	padding-left:10%;
+	padding-right:10%;
+	background-image: url("image/nea_nra_4.jpg");
+ /* 	height: 100%;*/
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:15%;
+  	padding-top:10%;
+	
+}
+
+#mainbody_4_4{
+	
+	
+	background-color:#D43E28;
+
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: cover;
+  	position: relative;
+  	padding-bottom:5%;
+  	padding-top:5%;
+	
+}
+
+
+
+#summary{
+	
+	padding-top:10%;
+
+}
+
+.textSpecial{
+	font-family: "shrikhand";
+
+	color:#A2D7E6;
+	
+
+}
+
+.redText{
+	color:#F34A25;
+}
+
+.obeyLaw{
+	color:#0084C8;
+
+}
+
+#parties{
+	color:#C9DAF1;
+	padding-top:40%;
+	padding-bottom:20%;
+
+}
+
+#shotFive{
+	color:#DF412D;
+}
+
+#ohMyGod{
+	color:#F34A25;
+}
+
+.summaryRound{
+	text-align: center;
+	font-family: "tablet gothic";
+	font-size: 14px;
+	color:white;
+	font-weight: bold;
+}
+
+#nav_last{
+	padding-top:10%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.statistics{
+	padding-top:8%;
+	font-family:"tablet gothic";
+	color:white;
+	font-size:16px;
+}
+
+.textLast{
+	font-family:"tablet gothic";
+	color:white;
+	font-size:14px;
+
+}
+
+#summaryLast{
+	text-align:center;
+}
+
+.navbar-default .navbar-nav>li>a.bodyNav{
+	color:white;
+
+}
+
+#overtime{
+	padding-top:5%;
+}
+
+.titleLine{
+	transform: rotate(90deg);
+	margin-right:2%;
+
+}
+
+#fistLIne{
+	margin-bottom:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
