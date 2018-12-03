@@ -70,6 +70,14 @@ sr.reveal('#mainDiv', {
     duration:1200
 });
 
+
+sr.reveal('#aboutDiv', {
+    distance: '20%',
+    origin: 'bottom',
+    opacity: 0.6,
+    duration:1200
+});
+
 sr.reveal('#summary', {
     distance: '40%',
     origin: 'bottom',

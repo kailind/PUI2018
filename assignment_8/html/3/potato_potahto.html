@@ -15,7 +15,7 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="stylesheet_8.css">
+  <link rel="stylesheet" type="text/css" href="../../Assets/style/stylesheet_8.css">
 
 
 </head>
@@ -27,26 +27,19 @@
      <nav class="navbar navbar-fixed-top" id='navigationBar'>
       <div class="container-fluid">
         
-          <a class="navbar-brand" id="title" href="index.html">Tug Of War</a>
+          <a class="navbar-brand" id="title" href="../index.html">Tug Of War</a>
         
           <ul class="nav navbar-nav">
-            <li><a href="index.html">About</a></li> 
+            <li><a href="../about.html">About</a></li> 
           </ul>
        </div>
     </nav>
-    <nav class="navbar navbar-fixed-top" id='navigationRight'>
-      <div class="container-fluid" >
-        
-        <ul class="nav navbar-nav">
-          <li><a href="fist_and_guns.html" class="rightSub_1">FISTS AND GUNS</a><hr></li>
-          <li><a href="police_and_shooter.html" class="rightSub_1">POLICE AND SHOOTER</a><hr></li>
-          <li><a href="potato_potahto.html">POTATO POTAHTO</a><hr></li>
-          <li><a href="nea_nra.html" class="rightSub_1">NRA VS. NEA</a><hr></li>
-          
-        </ul>
-       </div>
-    </nav>
-
+    <div class="sidenav">
+       <div class="sidenavSub"><a href="../1/fist_and_guns.html" class="rightSub_1">FISTS AND GUNS</a><hr></div>
+        <div class="sidenavSub"><a href="../2/police_and_shooter.html" class="rightSub_1">POLICE AND SHOOTER</a><hr></div>
+        <div class="sidenavSub"><a href="potato_potahto.html" >POTATO POTAHTO</a><hr></div>
+        <div class="sidenavSub"><a href="../4/nea_nra.html" class="rightSub_1">NRA VS. NEA</a><hr></div>
+    </div>
   
 
     <!--This is the container for the grid in Bootstrap-->
@@ -71,9 +64,12 @@
     <div class="row" id="potato_potahto_intro">
         <div class="col-sm-4" >
             <p class="roundTitle"> ROUND 3 </p>
-            <p class="mainPlayerTitle"> MAIN PLAYERS</p>
+            <p class="mainPlayerTitle"> PEOPLE IN THIS INTERVIEW</p>
             <p class="nameTitle">
               Ira Glass
+            </p>
+            <p id="peopleIntro">
+              Interviewer
             </p>
             <p class="nameTitle">
               Mike Robbins
@@ -286,10 +282,13 @@
   </div>
   <div class="col-sm-12" id="mainbody_4_4">
     <div class="col-sm-12" id="summary">
-        <p class="textLast" id="summaryLast">Sarah Vowell’s family is like a microcosm of America. There are conflicts between the NRA and the NEA, but in the end, we are all common people. We are eventually one big team, sharing the same goal of saving lives and saving the country. Who is the final winner of this tug-of-war? Or, is there something more important than winning? </p>
+        <p class="textLast" id="summaryLast">It’s thought-provoking to hear the stories from Mike and Suzanna. They had verysimilar experiences, and yet their perspectives became extremely opposite atthe end. It seems that both teams made great arguemnts. Guns are strongweapons that could have destroyed a man in ten minutes, but also could have protect a whole family from the crime. </p>
 
         
-        <p class='summaryRound' id="overtime">OVERTIME WINNER: WHO WINS? YOU DECIDE.</p>
+        <p class='statistics'>ANTI GUN-TEAM AND PRO-GUN TEAM’S ACTIONS ON GUN LAWS</p>
+        <p class="textLast">In 1994, The Violent Crime Control and Law Enforcement Act was passed. It banned the manufacture, use, possession and import of 19 types of assault weapons, including AR-15, TEC-9, Mac-10, AK-47s and Uzis.</p>
+
+        <p class="textLast">The pro-gun team thinks that violence continues unchecked  despite the ban and people are being denied to the means to protect themselves. In 2004, The Supreme Court striked down the 32-year old D.C. handgun ban as unconstitutional. </p>
     </div>
     <div class="col-sm-12" id="nav_last">
       
@@ -299,10 +298,10 @@
           
           <ul class="nav navbar-nav">
             
-            <li><a href="fist_and_guns.html" class="bodyNav" id="last_nav_1">FIST AND GUNS</a></li>
-            <li><a href="police_and_shooter.html" class="bodyNav" id="last_nav_2">POLICE AND SHOOTER</a></li>
+            <li><a href="../1/fist_and_guns.html" class="bodyNav" id="last_nav_1">FIST AND GUNS</a></li>
+            <li><a href="../2/police_and_shooter.html" class="bodyNav" id="last_nav_2">POLICE AND SHOOTER</a></li>
             <li><a href="potato_potahto.html" class="bodyNav" id="last_nav_3">POTATO POTAHTO</a></li>
-            <li><a href="nea_nra.html" class="bodyNav" id="last_nav_4">NRA VS. NEA</a></li>
+            <li><a href="../4/nea_nra.html" class="bodyNav" id="last_nav_4">NRA VS. NEA</a></li>
             
           </ul>
          </div>
@@ -314,7 +313,7 @@
 </div>
 
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="../../Assets/javascript/main.js"></script>
 
 
 

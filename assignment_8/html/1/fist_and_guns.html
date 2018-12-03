@@ -15,7 +15,7 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="stylesheet_8.css">
+  <link rel="stylesheet" type="text/css" href="../../Assets/style/stylesheet_8.css">
 
 
 </head>
@@ -27,41 +27,48 @@
     <nav class="navbar navbar-fixed-top" id='navigationBar'>
       <div class="container-fluid">
         
-          <a class="navbar-brand" id="title" href="index.html">Tug Of War</a>
+          <a class="navbar-brand" id="title" href="../index.html">Tug Of War</a>
         
           <ul class="nav navbar-nav">
-            <li><a href="index.html">About</a></li> 
+            <li><a href="../about.html">About</a></li> 
           </ul>
        </div>
     </nav>
-    <nav class="navbar navbar-fixed-top" id='navigationRight'>
+    <div class="sidenav">
+       <div class="sidenavSub" ><a href="fist_and_guns.html" >FISTS AND GUNS</a><hr></div>
+        <div class="sidenavSub" ><a href="../2/police_and_shooter.html" class="rightSub_1" >POLICE AND SHOOTER</a><hr></div>
+        <div class="sidenavSub" ><a href="../3/potato_potahto.html" class="rightSub_1" >POTATO POTAHTO</a><hr></div>
+        <div class="sidenavSub" ><a href="../4/nea_nra.html" class="rightSub_1" >NRA VS. NEA</a><hr></div>
+    </div>
+
+  <!--   <nav class="navbar navbar-fixed-right" >
       <div class="container-fluid" >
         
         <ul class="nav navbar-nav">
-          <li><a href="fist_and_guns.html" class=>FISTS AND GUNS</a><hr></li>
+          <li><a href="fist_and_guns.html" >FISTS AND GUNS</a><hr></li>
           <li><a href="police_and_shooter.html" class="rightSub_1">POLICE AND SHOOTER</a><hr></li>
           <li><a href="potato_potahto.html" class="rightSub_1">POTATO POTAHTO</a><hr></li>
           <li><a href="nea_nra.html" class="rightSub_1">NRA VS. NEA</a><hr></li>
           
         </ul>
        </div>
-    </nav>
+    </nav> -->
+
 
   
 
-    <!--This is the container for the grid in Bootstrap-->
     <div class="container-fluid" id="fistsGunTitle">
       
-        <div id="subTitles">
+        <div id="subTitles" >
           <h1 class="homeNav" id="FISTS" >FISTS</h1>
         </div>
       
       
-        <div id="subTitles">
+        <div id="subTitles" >
           <h1 class="homeNav" id="AND">AND</h1>
         </div>
       
-      <div id="subTitles">
+      <div id="subTitles" id="last_nav_3">
         <h1 class="homeNav" id="GUNS">GUNS</h1>
       </div>
 
@@ -69,13 +76,18 @@
       
       
 
-      <!--Here is a single row with a 4/8 column split in Bootstrap-->
     <div class="row" id="fists_and_guns_intro">
         <div class="col-sm-4" >
             <p class="roundTitle"> ROUND 1 </p>
-            <p class="mainPlayerTitle"> MAIN PLAYERS</p>
+            <p class="mainPlayerTitle">PEOPLE IN THIS INTERVIEW</p>
             <p class="nameTitle">
               Ira Glass
+            </p>
+            <p id="peopleIntro">
+              Interviewer
+            </p>
+            <p id="peopleIntro">
+              Interviewer
             </p>
             <p class="nameTitle">
               Geofrey Canada
@@ -218,19 +230,26 @@
 
         <p class='statistics'>Statistics from the anti-gun team</p>
         <p class="textLast">2000 gun homicide happens in the U.S. every year on an average.</p>
+       <!--  <nav>
+        <a href="fist_and_guns.html" >FIST AND GUNS</a>
+            <a href="police_and_shooter.html" >POLICE AND SHOOTER</a>
+            <a href="potato_potahto.html"  >POTATO POTAHTO</a>
+            <a href="nea_nra.html" >NRA VS. NEA</a>
+        </nav> -->
     </div>
+
     <div class="col-sm-12" id="nav_last">
       <br>
       <p class="read_stories"> ───── Read The Stories</p>
-      <nav class="navbar navbar-default" class="col-sm-12" >
+      <nav class="navbar navbar-default">
         <div class="container-fluid">
           
           <ul class="nav navbar-nav">
             
             <li><a href="fist_and_guns.html" class="bodyNav" id="last_nav_1">FIST AND GUNS</a></li>
-            <li><a href="police_and_shooter.html" class="bodyNav" id="last_nav_2">POLICE AND SHOOTER</a></li>
-            <li><a href="potato_potahto.html" class="bodyNav" id="last_nav_3">POTATO POTAHTO</a></li>
-            <li><a href="nea_nra.html" class="bodyNav" id="last_nav_4">NRA VS. NEA</a></li>
+            <li><a href="../2/police_and_shooter.html" class="bodyNav" id="last_nav_2">POLICE AND SHOOTER</a></li>
+            <li><a href="../3/potato_potahto.html" class="bodyNav" id="last_nav_3">POTATO POTAHTO</a></li>
+            <li><a href="../4/nea_nra.html" class="bodyNav" id="last_nav_4">NRA VS. NEA</a></li>
           </ul>
          </div>
       </nav>
@@ -240,7 +259,7 @@
 </div>
 
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="../../Assets/javascript/main.js"></script>
   
 
 </body>

@@ -1,17 +1,19 @@
 @media screen and (max-width: 1200px){
-	#navigationRight{
+	.sidenav{
 		display:none;
 	}
 
 }
 
 @media screen and (min-width: 1201px){
-	#navigationRight{
+	.sidenav{
 		display:block;
 	}
 
 	
 }
+
+
 
 
 @media screen and (min-width:1001px){
@@ -431,19 +433,20 @@ a:hover{
 
 
 #mainBody{
-	background-image: url("image/background_main.jpg");
+	background-image: url("../image/background_main.jpg");
 
 }
 
 #aboutDiv{
 	padding-top:20%;
-	padding-left:10%;
-	padding-right:10%;
+	padding-left:20%;
+	padding-right:20%;
+	margin-bottom:5%;
 	text-align:center;
 }
 
 #aboutBody{
-	background-color:#000000;
+	background-color:#321D1D;
 }
 
 #section1{
@@ -458,7 +461,7 @@ a:hover{
 }
 
 #section2{
-	background-image: url("image/nea_nra_1.jpg");
+	background-image: url("../image/nea_nra_1.jpg");
  /* 	height: 100%;*/
   	background-position: center;
   	background-repeat: no-repeat;
@@ -519,6 +522,7 @@ h1{
 
 .read_stories{
 	margin-top:10%;
+	margin-left:3%;
 	font-family:"georgia";
 	font-size:14px;
 	color:white;
@@ -546,7 +550,7 @@ h1{
 .navbar-nav{
 	float:right;
 	background:none;
-	/*margin-right:5%;*/
+	
 
 }
 
@@ -572,6 +576,54 @@ h1{
 	color:white;
 }
 
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 120px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: none; 
+    overflow-x: hidden; 
+    padding-top: 140px;
+}
+.sidenav a {
+	/*transform:rotate(90deg);*/
+    padding: 100px 10px 0px 0px;
+    margin-bottom:2px;
+    margin-left:0;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    display: block;
+    font-family:"tablet gothic";
+    font-weight: 200;
+    width: 150px;
+
+
+}
+
+.sidenavSub{
+	transform:rotate(90deg);
+	display:inline-block;
+}
+.sidenav hr{
+	/*transform:rotate(90deg);*/
+	display:inline-block;
+	float:left;
+}
+
+.rightSub_1{
+	opacity:0;
+}
+
+.rightSub_1:hover{
+	opacity:100;
+	color:white;
+
+}
+	
+
 #navigationRight .navbar-nav>li>a.rightSub_1{
 	opacity:0;
 }
@@ -584,13 +636,16 @@ h1{
 
 #navigationRight{
 	transform: rotate(90deg);
+	font-size:10px;
 	/*display:inline-block;*/
 	position:fixed;
-	margin-right:5%;
-	font-size:10px;
-	padding-bottom: 98%;
-	padding-left:0;
-    padding-right: 50%;
+	/*margin-right:5%;*/
+	/*padding-top: 15%;*/
+	margin-left:900px;
+	margin-top:250px;
+	width:auto;
+	/*padding-left:0;*/
+    /*padding-right: 50%;*/
 
     
 }
@@ -669,7 +724,7 @@ hr{
 	padding-right:12%;
 	
 
-	/*display:inline-block;*/
+
 
 }
 
@@ -807,6 +862,7 @@ hr{
 	font-weight: bold;
 	font-size:14px;
 	text-decoration: underline;
+	margin-bottom: 0px;
 
 }
 
@@ -857,7 +913,7 @@ hr{
 }
 
 #mainbody_1_1{
-	background-image: url("image/fist_and_gun_2.jpg");
+	background-image: url("../image/fist_and_gun_2.jpg");
  /* 	height: 100%;*/
   	background-position: center;
   	background-repeat: no-repeat;
@@ -871,7 +927,7 @@ hr{
 #mainbody_1_2{
 	padding-left:10%;
 	padding-right:10%;
-	background-image: url("image/fist_and_gun_3.jpg");
+	background-image: url("../image/fist_and_gun_3.jpg");
 
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -884,7 +940,7 @@ hr{
 #mainbody_1_3{
 	padding-left:10%;
 	padding-right:10%;
-	background-image: url("image/fist_and_gun_4.jpg");
+	background-image: url("../image/fist_and_gun_4.jpg");
 
   	background-repeat: no-repeat;
   	background-position: center;
@@ -897,7 +953,7 @@ hr{
 
 #mainbody_1_4{
 	
-	background-image: url("image/fist_and_gun_5.jpg");
+	background-image: url("../image/fist_and_gun_5.jpg");
 
   	background-repeat: no-repeat;
   	background-position: center;
@@ -911,7 +967,7 @@ hr{
 #section3{
 	/*padding-left:10%;
 	padding-right:10%;*/
-	background-image: url("image/police_and_shooter_1.jpg");
+	background-image: url("../image/police_and_shooter_1.jpg");
 
   	background-repeat: no-repeat;
   	background-position: center;
@@ -931,7 +987,7 @@ hr{
 
 #mainbody_2_1{
 	
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("image/police_and_shooter_2.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../image/police_and_shooter_2.jpg");
   	background-repeat: no-repeat;
   	background-position: center;
   	background-size: cover;
@@ -954,7 +1010,7 @@ hr{
 #mainbody_2_2{
 	padding-left:10%;
 	padding-right:10%;
-	background-image: url("image/police_and_shooter_3.jpg");
+	background-image: url("../image/police_and_shooter_3.jpg");
   	background-repeat: no-repeat;
   	background-position: center;
   	background-size: cover;
@@ -980,7 +1036,7 @@ hr{
 #mainbody_3_1{
 	padding-left:10%;
 	padding-right:10%;
-	background-image: url("image/potato_potahto_1.jpg");
+	background-image: url("../image/potato_potahto_1.jpg");
  /* 	height: 100%;*/
   	background-position: center;
   	background-repeat: no-repeat;
@@ -1008,7 +1064,7 @@ hr{
 #mainbody_3_3{
 	padding-left:20%;
 	padding-right:20%;
-	background-image: url("image/potato_potahto_2.jpg");
+	background-image: url("../image/potato_potahto_2.jpg");
  /* 	height: 100%;*/
   	background-position: center;
   	background-repeat: no-repeat;
@@ -1021,7 +1077,7 @@ hr{
 #mainbody_3_4{
 	padding-left:10%;
 	padding-right:10%;
-	background-image: url("image/potato_potahto_3.jpg");
+	background-image: url("../image/potato_potahto_3.jpg");
  /* 	height: 100%;*/
   	height: auto;
   	background-size: cover;
@@ -1036,7 +1092,7 @@ hr{
 #mainbody_3_5{
 	padding-left:20%;
 	padding-right:20%;
-	background-image: url("image/potato_potahto_4.jpg");
+	background-image: url("../image/potato_potahto_4.jpg");
  /* 	height: 100%;*/
   	height: auto;
   	background-size: cover;
@@ -1055,7 +1111,7 @@ hr{
 
 #mainbody_4_1{
 	
-	background-image: url("image/nea_nra_2.jpg");
+	background-image: url("../image/nea_nra_2.jpg");
  /* 	height: 100%;*/
   	background-position: center;
   	background-repeat: no-repeat;
@@ -1069,7 +1125,7 @@ hr{
 
 #mainbody_4_2{
 	
-	background-image: url("image/nea_nra_3.jpg");
+	background-image: url("../image/nea_nra_3.jpg");
  /* 	height: 100%;*/
   	background-position: center;
   	background-repeat: no-repeat;
@@ -1083,7 +1139,7 @@ hr{
 #mainbody_4_3{
 	padding-left:10%;
 	padding-right:10%;
-	background-image: url("image/nea_nra_4.jpg");
+	background-image: url("../image/nea_nra_4.jpg");
  /* 	height: 100%;*/
   	background-position: center;
   	background-repeat: no-repeat;
@@ -1097,7 +1153,7 @@ hr{
 #mainbody_4_4{
 	
 	
-	background-color:#D43E28;
+	background-color:#F34A25;
 
   	background-repeat: no-repeat;
   	background-position: center;
